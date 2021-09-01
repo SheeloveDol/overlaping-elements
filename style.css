@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template: repeat(8, 200px) / repeat(6, 100px);
+}
+ 
+.info {
+  background-color: darkgoldenrod;
+  grid-area: 1 / 1 / 9 / 4;
+}
+ 
+.services {
+  background-color: cornflowerblue;
+  grid-area: 1 / 4 / 9 / 7;
+}
+ 
+img {
+  background-color: brown;
+  grid-area: 2 / 3 / 5 / 5;
+  z-index: 5;
+}
